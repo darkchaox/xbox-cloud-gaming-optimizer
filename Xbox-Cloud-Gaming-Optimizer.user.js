@@ -2,7 +2,7 @@
 // @name                 Xbox Cloud Gaming优化整合
 // @name:zh-CN           Xbox Cloud Gaming优化整合
 // @namespace            none
-// @version              1.0.3
+// @version              1.0.4
 // @author               darkchaox
 // @license              MIT
 // @match                https://www.xbox.com/*/*play*
@@ -2425,11 +2425,6 @@ PwaPrompt: false,
 
         settingsHTML += `
                 <button class="closeSetting1 closeSetting2" style="outline: none;">关闭</button>
-                <div style="text-align: right;margin-top: 8px;font-size: 16px;">
-                    <label>捐赠：</label>
-                    <a style="margin-right:15px;outline: none;color: #107c10;text-decoration: underline;" href="https://greasyfork.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVNFQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--14c278e3f72d104cff50bf130d4039229fc25a6b/wx.png?locale=zh-CN">微信</a>
-                    <a style="outline: none;color: #107c10;text-decoration: underline;" href="https://greasyfork.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMU9FQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--5fc08aaa8407cc6099654d65455b7966bf2c60ee/alipay.png?locale=zh-CN">支付宝</a>
-                </div>
             </div>
         </div>
     `;
