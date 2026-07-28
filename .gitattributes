@@ -1,0 +1,6 @@
+# 保持文字檔的一致性；使用者腳本在 Windows 工作目錄採用 CRLF。
+* text=auto
+*.user.js text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
