@@ -2,7 +2,7 @@
 // @name                 Xbox Cloud Gaming优化整合
 // @name:zh-CN           Xbox Cloud Gaming优化整合
 // @namespace            none
-// @version              1.0.4
+// @version              1.0.5
 // @author               darkchaox
 // @license              MIT
 // @homepageURL          https://github.com/darkchaox/xbox-cloud-gaming-optimizer
@@ -16,8 +16,8 @@
 // @downloadURL          https://update.greasyfork.org/scripts/588851/Xbox%20Cloud%20Gaming%E4%BC%98%E5%8C%96%E6%95%B4%E5%90%88.user.js
 // @updateURL            https://update.greasyfork.org/scripts/588851/Xbox%20Cloud%20Gaming%E4%BC%98%E5%8C%96%E6%95%B4%E5%90%88.meta.js
 // @grant                none
-// @description:zh-cn    免费脚本，谨防上当受骗。本项目基于奈非天大佬此前开发、整理并分享的 Xbox Cloud Gaming 优化整合脚本进行二次维护。由于原作者已删除原始代码库并停止更新，感谢奈非天大佬过去的开发、整理与分享。本版本由darkchaox维护与优化
-// @description          免费脚本，谨防上当受骗。本项目基于奈非天大佬此前开发、整理并分享的 Xbox Cloud Gaming 优化整合脚本进行二次维护。由于原作者已删除原始代码库并停止更新，感谢奈非天大佬过去的开发、整理与分享。本版本由darkchaox维护与优化
+// @description:zh-cn    Xbox Cloud Gaming 优化整合脚本，提供地区限制处理、免代理直连、选服与自定义 IP、串流信息显示、画面与分辨率调整、触控及全屏等功能。项目地址：https://github.com/darkchaox/xbox-cloud-gaming-optimizer
+// @description          Xbox Cloud Gaming optimization userscript for regional-access handling, streaming statistics, video and codec tuning, touch controls, and fullscreen options. Project: https://github.com/darkchaox/xbox-cloud-gaming-optimizer
 
 
 // ==/UserScript==

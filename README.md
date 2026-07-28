@@ -1,28 +1,26 @@
 # Xbox Cloud Gaming 優化整合
 
-Xbox Cloud Gaming 使用者腳本，提供**地區限制處理**、串流資訊顯示、畫面與控制調整等常用功能。
+> Xbox Cloud Gaming 使用者腳本，提供**地區限制處理**、串流資訊顯示，以及畫面與操作體驗調整。
 
-[**立即安裝最新版本**](https://raw.githubusercontent.com/darkchaox/xbox-cloud-gaming-optimizer/main/Xbox-Cloud-Gaming-Optimizer.user.js)　|　[Greasy Fork 安裝頁](https://update.greasyfork.org/scripts/588851/Xbox%20Cloud%20Gaming%E4%BC%98%E5%8C%96%E6%95%B4%E5%90%88.user.js)
+[**立即安裝最新版**](https://raw.githubusercontent.com/darkchaox/xbox-cloud-gaming-optimizer/main/Xbox-Cloud-Gaming-Optimizer.user.js)　｜　[**Greasy Fork 安裝頁**](https://greasyfork.org/zh-CN/scripts/588851-xbox-cloud-gaming%E4%BC%98%E5%8C%96%E6%95%B4%E5%90%88)　｜　[**回報問題**](https://github.com/darkchaox/xbox-cloud-gaming-optimizer/issues)
 
-> 本專案免費提供。請僅從本 GitHub 倉庫或 Greasy Fork 取得腳本，勿相信任何付費販售或來路不明的轉載版本。
+本專案免費提供。請僅從本 GitHub 倉庫或 Greasy Fork 取得腳本，勿相信任何付費販售或來路不明的轉載版本。
 
-## 主要功能
+## 這個腳本可以做什麼？
 
-- **解除地區限制**：提供免代理直連、選服與自訂 IP 等設定，用於協助處理 Xbox Cloud Gaming 的地區限制。
-- **串流資訊顯示**：可查看幀率、延遲、碼率、解析度等串流資訊。
-- **畫面與串流調整**：提供 720P／1080P、瀏覽器編解碼偏好、畫面比例及亮度、對比、飽和度、清晰度等選項。
-- **操作體驗調整**：提供自動全螢幕、觸控控制顯示與屏蔽等設定。
-- **其他常用設定**：提供遊戲語言、IPv6 優先、網路檢測與實體伺服器相關選項。
+- **處理地區限制**：提供免代理直連、選服與自訂 IP 等選項，用於協助處理 Xbox Cloud Gaming 的地區限制。
+- **掌握串流狀態**：顯示幀率、延遲、碼率與解析度等資訊，便於判斷串流情況。
+- **調整畫面與編解碼**：提供 720P／1080P、瀏覽器編解碼偏好、畫面比例，以及亮度、對比、飽和度與清晰度調整。
+- **改善操作體驗**：提供自動全螢幕、觸控控制顯示與屏蔽等選項。
+- **提供常用進階設定**：包含遊戲語言、IPv6 優先、網路檢測與實體伺服器相關選項。
 
-實際可用功能會因瀏覽器、裝置、網路環境、帳號權限及 Xbox 服務狀態而不同，請以設定面板中顯示的選項為準。
+實際可用功能會因帳號權限、服務區域、瀏覽器、裝置與網路環境而異；請以遊戲頁面中的設定面板為準。
 
 ## 設定面板預覽
 
-![Xbox Cloud Gaming 優化整合的設定面板](assets/settings-panel.png)
+![Xbox Cloud Gaming 優化整合設定面板](assets/settings-panel.png)
 
-設定面板可在 Xbox Cloud Gaming 頁面中開啟；請先從預設值開始，並在每次調整後確認串流與控制是否正常。
-
-## 安裝方式
+## 快速開始
 
 ### 1. 安裝使用者腳本管理器
 
@@ -33,7 +31,7 @@ Xbox Cloud Gaming 使用者腳本，提供**地區限制處理**、串流資訊�
 
 ### 2. 安裝腳本
 
-點擊 [**立即安裝最新版本**](https://raw.githubusercontent.com/darkchaox/xbox-cloud-gaming-optimizer/main/Xbox-Cloud-Gaming-Optimizer.user.js)，並依腳本管理器顯示的提示確認安裝。
+點擊 [**立即安裝最新版**](https://raw.githubusercontent.com/darkchaox/xbox-cloud-gaming-optimizer/main/Xbox-Cloud-Gaming-Optimizer.user.js)，並在腳本管理器的安裝頁確認安裝。
 
 ### 3. 開啟 Xbox Cloud Gaming
 
@@ -42,44 +40,44 @@ Xbox Cloud Gaming 使用者腳本，提供**地區限制處理**、串流資訊�
 - `https://www.xbox.com/play`
 - `https://play.xbox.com/`
 
-腳本會在符合條件的 Xbox Cloud Gaming 頁面中載入。
+進入遊戲後，開啟腳本設定面板，先使用預設值確認串流與控制正常，再依需求調整選項。
 
 ## 使用建議
 
-1. 先以預設設定進入遊戲，確認串流與控制正常。
-2. 如有地區可用性問題，可嘗試依序調整「免代理直連」、「選服」或「自訂 IP」等選項。
-3. 如要調整畫面或串流表現，建議一次只改變一項設定，方便判斷效果。
-4. 如出現畫面、聲音、控制或連線異常，請將最近修改的選項恢復預設後重新整理頁面。
+1. **優先處理地區可用性**：如有地區限制問題，可依序嘗試「免代理直連」、「選服」與「自訂 IP」選項。
+2. **一次只調整一項**：修改解析度、編解碼偏好或畫面設定後，請觀察是否影響畫面、聲音、輸入與連線。
+3. **異常時回復預設**：若出現黑畫面、控制異常、聲音問題或無法連線，請先還原最近變更的選項並重新整理頁面。
+4. **保留設定紀錄**：在更新腳本前，若有重要自訂配置，建議先記錄目前選項。
 
 ## 使用前請注意
 
 - 本腳本不提供 Xbox Game Pass、雲端遊戲資格、遊戲內容或網路服務。
-- 地區可用性、畫質、延遲與穩定性會受到帳號、網路、裝置、瀏覽器、服務區域及 Xbox 服務狀態影響；本腳本不保證任何特定環境都能成功解除限制或改善體驗。
+- 地區可用性、畫質、延遲與穩定性受到帳號、裝置、網路、瀏覽器、服務區域及 Xbox 服務狀態影響；本腳本不保證任何環境均可解除限制或改善體驗。
 - 請遵守你所在地區適用的法律，以及 Microsoft／Xbox 的服務條款。
-- 腳本目前的正式更新來源為 Greasy Fork；GitHub 用於公開原始碼、文件與最新維護內容。
+- GitHub 保存原始碼、文件與問題回報；Greasy Fork 為正式安裝與自動更新渠道。
 
 ## 常見問題
 
 ### 安裝後沒有作用，怎麼辦？
 
-請依序檢查：
+請依序確認：
 
-1. Tampermonkey 或 Violentmonkey 是否已啟用；
-2. 腳本是否在管理器中處於啟用狀態；
-3. 目前頁面是否為 `xbox.com/play` 或 `play.xbox.com`；
-4. 重新整理 Xbox Cloud Gaming 頁面後再測試；
-5. 暫時停用其他可能修改 Xbox 網頁的擴充功能後再測試。
+1. Tampermonkey 或 Violentmonkey 已啟用；
+2. 腳本在管理器中處於啟用狀態；
+3. 目前頁面為 `xbox.com/play` 或 `play.xbox.com`；
+4. 已重新整理 Xbox Cloud Gaming 頁面；
+5. 已暫時停用其他可能修改 Xbox 網頁的擴充功能。
 
 ### 為什麼調整後沒有改善延遲或畫質？
 
-串流表現同時受網路、裝置效能、瀏覽器編解碼能力、服務區域與 Xbox 伺服器狀態影響。腳本提供的是調整選項與資訊輔助，無法保證任何網路環境一定改善。
+串流表現同時受網路品質、裝置效能、瀏覽器編解碼能力、服務區域與 Xbox 伺服器狀態影響。腳本提供的是調整選項與資訊輔助，無法保證所有網路環境都能改善。
 
-## 回報問題
+## 問題回報
 
-請到 [GitHub Issues](https://github.com/darkchaox/xbox-cloud-gaming-optimizer/issues) 回報問題，並盡量提供：
+請在 [GitHub Issues](https://github.com/darkchaox/xbox-cloud-gaming-optimizer/issues) 回報問題，並盡量附上：
 
-- 瀏覽器、作業系統與使用者腳本管理器版本；
-- 問題發生步驟、預期結果與實際結果；
+- 瀏覽器、作業系統與腳本管理器版本；
+- 重現問題的步驟、預期結果與實際結果；
 - 可公開的錯誤訊息或畫面截圖。
 
 請勿提交帳號密碼、Cookie、Token、個人資料或其他敏感資訊。
