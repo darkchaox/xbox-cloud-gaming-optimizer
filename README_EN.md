@@ -8,7 +8,11 @@
 
 </div>
 
+<div align="center">
+
 [**Install Latest Version**](https://raw.githubusercontent.com/darkchaox/xbox-cloud-gaming-optimizer/main/Xbox-Cloud-Gaming-Optimizer.user.js) | [**Greasy Fork**](https://greasyfork.org/zh-CN/scripts/588851-xbox-cloud-gaming%E4%BC%98%E5%8C%96%E6%95%B4%E5%90%88) | [**Report an Issue**](https://github.com/darkchaox/xbox-cloud-gaming-optimizer/issues)
+
+</div>
 
 This project is provided free of charge. Obtain the script only from this GitHub repository or Greasy Fork. Do not trust paid copies or unofficial reuploads.
 
