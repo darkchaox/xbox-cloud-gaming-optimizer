@@ -5,6 +5,8 @@
 // @version              1.0.4
 // @author               darkchaox
 // @license              MIT
+// @homepageURL          https://github.com/darkchaox/xbox-cloud-gaming-optimizer
+// @supportURL           https://github.com/darkchaox/xbox-cloud-gaming-optimizer/issues
 // @match                https://www.xbox.com/*/*play*
 // @match                https://www.xbox.com/*/play*
 // @match                https://play.xbox.com/*
