@@ -101,3 +101,7 @@ Thanks to the **better-xcloud** project and to **奈非天** for prior developme
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md).
+
+## License
+
+This project is released under the **MIT License**. Third-party and upstream code remain subject to their respective copyright and license notices. See the preserved source code notices and [NOTICE.md](NOTICE.md) for details.
